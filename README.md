@@ -8,8 +8,8 @@
 
 ## Impactos no Projeto do Amplificador de Áudio
 
-* Vamos além da visão “transistor como chave”
-* entrar em “transistor como amplificador linear”
+* Vamos além da visão **transistor como chave**
+* entrar em **transistor como amplificador linear**
 * mostrar que a polarização define:
   * distorção,
   * clipping,
@@ -28,7 +28,11 @@
 
 # 1. Ponto de Partida
 
-> “Por que alguns amplificadores distorcem mesmo sem aumentar muito o volume?”
+### Por que alguns amplificadores distorcem mesmo sem aumentar muito o volume?
+
+<br>
+<br>
+<br>
 
 Pontos-chave que explicam isso:
 
