@@ -45,9 +45,9 @@
 
 Pontos-chave que explicam isso:
 
-* um áudio clipado --> transistores não estão no seu ponto intermediário entre corte e saturado. Esse ponto chama-se Q;
-* um transistor funcionando como chave --> pode haver resistências e resistores mal dimencionados conectados aos transistores alterando o ponto Q;
-* um transistor funcionando linearmente --> é o nosso alvo
+* um áudio clipado → transistores não estão no seu ponto intermediário entre corte e saturado. Esse ponto chama-se Q;
+* um transistor funcionando como chave → pode haver resistências e resistores mal dimencionados conectados aos transistores alterando o ponto Q;
+* um transistor funcionando linearmente → é o nosso alvo
 
 
 ## O transistor está apenas ligando e desligando ou existe uma região intermediária?
@@ -67,7 +67,7 @@ Pontos-chave que explicam isso:
 
 * corte;
 * saturação;
-* região ativa --> onde mora o ponto Q
+* região ativa → onde mora o ponto Q
 
 ## Como o circuito decide em qual ponto o transistor vai "descansar" antes do áudio chegar?
 
