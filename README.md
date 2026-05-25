@@ -225,9 +225,7 @@ Valores:
 
 Antes de iniciar os cálculos, observe o circuito montado e responda:
 
-## 1.1)
-
-Qual é a função de:
+## 1.1) Qual é a função de:
 
 * R1?
 * R2?
@@ -236,17 +234,11 @@ Qual é a função de:
 * C1?
 * C2?
 
-## 1.2)
+## 1.2) O sinal de áudio entra em qual terminal do transistor?
 
-O sinal de áudio entra em qual terminal do transistor?
+## 1.3) O sinal amplificado sai de qual terminal?
 
-## 1.3)
-
-O sinal amplificado sai de qual terminal?
-
-## 1.4)
-
-O transistor deste circuito trabalha:
+## 1.4) O transistor deste circuito trabalha:
 
 * como chave?
 * ou como amplificador linear?
