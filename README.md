@@ -360,17 +360,17 @@ Justifique utilizando o valor de VCE.
 
 ## 10.3) Observe o sinal no osciloscópio. Existe clipping?
 
-# Conclusão da atividade
+# ETAPA 11 — Conclusão da atividade
 
-## 1) Qual é a principal função da polarização em um amplificador BJT?
+## 11.1) Qual é a principal função da polarização em um amplificador BJT?
 
-## 2) O que acontece quando o ponto Q é mal ajustado?
+## 11.2) O que acontece quando o ponto Q é mal ajustado?
 
-## 3) Por que o resistor de emissor melhora a estabilidade do circuito?
+## 11.3) Por que o resistor de emissor melhora a estabilidade do circuito?
 
-## 4) Por que a polarização por divisor de tensão é mais estável que a polarização fixa?
+## 11.4) Por que a polarização por divisor de tensão é mais estável que a polarização fixa?
 
-## 5) Qual foi a principal relação observada entre:
+## 11.5) Qual foi a principal relação observada entre:
 
 * cálculos teóricos;
 * simulação;
