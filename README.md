@@ -136,18 +136,13 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 
 ## Parte 3 — Método aproximado
 
-Mostre a condição:
-
-\beta R_E \geq 10R_2
-
-Explique:
+Ver a equação 4.33 do PDF [AQUI](https://drive.google.com/file/d/1_7p3mcqvUH_jVqHbjrk3s6PnXa21Ybk-/view?usp=sharing)
 
 * se essa condição é satisfeita,
 * IB fica desprezível,
 * o divisor “manda” na tensão da base.
 
 Isso é MUITO importante para o projeto real.
-
 
 # 4. Parte Matemática Aplicada ao Amplificador
 
