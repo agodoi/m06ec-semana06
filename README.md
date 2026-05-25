@@ -330,10 +330,9 @@ Justifique utilizando o valor de VCE.
 * invertido?
 * não invertido?
 
-## 8.3) O sinal de saída possui maior amplitude?
+## 8.3) O sinal de saída possui maior amplitude? Explique.
 
-## 8.4) Explique:
-Por que o capacitor de entrada impede que a fonte AC altere a polarização DC do transistor?
+## 8.4) Por que o capacitor de entrada impede que a fonte AC altere a polarização DC do transistor?
 
 # ETAPA 9 — Alterando o ponto Q
 
@@ -350,9 +349,7 @@ Por que o capacitor de entrada impede que a fonte AC altere a polarização DC d
 
 ## 9.3) A forma de onda piorou? Explique
 
-# ETAPA 10 — Investigação da saturação [PRO LAR, FAZER EM CASA]
-
-Agora altere: RC para 1 kΩ.
+# ETAPA 10 — Investigação da saturação [PRO LAR, FAZER EM CASA]. Agora altere: RC para 1 kΩ.
 
 ## 10.1) Calcule ICsat utilizando 4.38
 
