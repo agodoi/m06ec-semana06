@@ -262,25 +262,15 @@ Explique.
 
 # ETAPA 3 — Cálculo da tensão no emissor
 
-## 3.1) Utilize a equação 4.34, considere VBE = 0,7 V
+## 3.1) Utilize a equação 4.34, considere VBE = 0,7 V e calcule: VE
 
-Calcule: VE
-
-## 3.2) Explique:
-Por que a tensão do emissor é menor que a tensão da base?
+## 3.2) Explique: por que a tensão do emissor é menor que a tensão da base?
 
 # ETAPA 4 — Corrente do emissor e coletor
 
 ## 4.1) Utilize a equação 4.35 e calcule IE
 
-e considere: IC aproximadamente igual a IE
-
-## 4.2) Calcule IC
-
-## 4.3) Converta os resultados:
-
-* para mA;
-* para µA.
+## 4.2) Considerando IC aproximadamente igual a IE, calcule ICQ
 
 # ETAPA 5 — Tensão coletor-emissor
 
@@ -294,23 +284,18 @@ e considere: IC aproximadamente igual a IE
 
 Justifique utilizando o valor de VCE.
 
-## 5.3) O circuito possui espaço para amplificar sinais AC positivos e negativos?
-
-Explique.
+## 5.3) O circuito possui espaço para amplificar sinais AC positivos e negativos? Explique.
 
 # ETAPA 6 — Verificação da condição de estabilidade
 
 ## 6.1) Utilize a condição 4.33 e verifique matematicamente se o circuito atende essa condição.
 
-## 6.2) Explique:
-O ponto Q deste circuito tende a ser:
+## 6.2) Explique se o ponto Q deste circuito tende a ser:
 
 * estável?
 * ou muito dependente de β?
 
-# ETAPA 7 — Simulação no Tinkercad
-
-Monte o circuito no Tinkercad.
+# ETAPA 7 — Simulação no Tinkercad. Monte o circuito no Tinkercad.
 
 ## 7.1) Meça:
 
@@ -329,9 +314,7 @@ Monte o circuito no Tinkercad.
 * teoria;
 * simulação.
 
-# ETAPA 8 — Inserção do sinal AC
-
-Configure:
+# ETAPA 8 — Inserção do sinal AC. Configure:
 
 * senoide;
 * 1 kHz;
