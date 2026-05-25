@@ -295,7 +295,7 @@ Justifique utilizando o valor de VCE.
 * estável?
 * ou muito dependente de β?
 
-# ETAPA 7 — Simulação no Tinkercad. Monte o circuito no Tinkercad.
+# ETAPA 7 — Simulação no Tinkercad. Monte o circuito 4.35 no Tinkercad.
 
 ## 7.1) Meça:
 
