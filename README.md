@@ -201,7 +201,7 @@ Tabela resumida:
 
 ## Circuito da atividade
 
-Monte o circuito abaixo no Tinkercad:
+Monte o circuito da **Figura 4.35** no Tinkercad:
 
 * Polarização por divisor de tensão;
 * Emissor comum;
