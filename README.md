@@ -165,23 +165,13 @@ Tabela resumida:
 ## Equações principais
 
 ### Tensão da base
-
-V_B = \frac{R_2V_{CC}}{R_1+R_2}
-
 ### Tensão do emissor
-
-V_E = V_B - V_{BE}
-
 ### Corrente de emissor
-
-genui{"math_block_widget_always_prefetch_v2":{"content":"I_E = \frac{V_E}{R_E}"}}
-
 ### Tensão coletor-emissor
 
-V_{CE} = V_{CC} - I_C(R_C + R_E)
+[AQUI](https://drive.google.com/file/d/1_7p3mcqvUH_jVqHbjrk3s6PnXa21Ybk-/view?usp=sharing)
 
 # 6. Fechamento Conceitual
-
 
 | Situação          | Consequência no áudio |
 | ----------------- | --------------------- |
@@ -251,19 +241,13 @@ Qual é a função de:
 * C1?
 * C2?
 
----
-
 ## 1.2)
 
 O sinal de áudio entra em qual terminal do transistor?
 
----
-
 ## 1.3)
 
 O sinal amplificado sai de qual terminal?
-
----
 
 ## 1.4)
 
@@ -274,27 +258,14 @@ O transistor deste circuito trabalha:
 
 Justifique.
 
----
 
 # ETAPA 2 — Cálculo da tensão de base (método aproximado)
 
-Utilize a equação do divisor de tensão: 
 
-V_B = \frac{R_2V_{CC}}{R_1+R_2}
 
----
+## 2.1) Utilize a equação 4.32 do divisor de tensão e calcule VB
 
-## 2.1)
-
-Calcule:
-
-* VB
-
----
-
-## 2.2)
-
-O valor encontrado está:
+## 2.2) O valor encontrado está:
 
 * próximo de 0 V?
 * próximo de VCC?
@@ -302,91 +273,33 @@ O valor encontrado está:
 
 Explique.
 
----
-
 # ETAPA 3 — Cálculo da tensão no emissor
 
-Utilize: 
+## 3.1) Utilize a equação 4.34, considere VBE = 0,7 V
 
-V_E = V_B - V_{BE}
+Calcule: VE
 
-Considere:
-
-* VBE = 0,7 V
-
----
-
-## 3.1)
-
-Calcule:
-
-* VE
-
----
-
-## 3.2)
-
-Explique:
+## 3.2) Explique:
 Por que a tensão do emissor é menor que a tensão da base?
-
----
 
 # ETAPA 4 — Corrente do emissor e coletor
 
-Utilize: 
+## 4.1) Utilize a equação 4.35 e calcule IE
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"I_E = \frac{V_E}{R_E}"}}
+e considere: IC aproximadamente igual a IE
 
-e considere:
+## 4.2) Calcule IC
 
-I_C \approx I_E
-
----
-
-## 4.1)
-
-Calcule:
-
-* IE
-
----
-
-## 4.2)
-
-Calcule:
-
-* IC
-
----
-
-## 4.3)
-
-Converta os resultados:
+## 4.3) Converta os resultados:
 
 * para mA;
 * para µA.
 
----
-
 # ETAPA 5 — Tensão coletor-emissor
 
-Utilize: 
+## 5.1) Utilize a equação 4.37 e calcule VCE
 
-V_{CE} = V_{CC} - I_C(R_C + R_E)
-
----
-
-## 5.1)
-
-Calcule:
-
-* VCE
-
----
-
-## 5.2)
-
-O transistor está:
+## 5.2) O transistor está:
 
 * em corte?
 * em saturação?
@@ -394,74 +307,40 @@ O transistor está:
 
 Justifique utilizando o valor de VCE.
 
----
-
-## 5.3)
-
-O circuito possui espaço para amplificar sinais AC positivos e negativos?
+## 5.3) O circuito possui espaço para amplificar sinais AC positivos e negativos?
 
 Explique.
 
----
-
 # ETAPA 6 — Verificação da condição de estabilidade
 
-Utilize a condição apresentada no Boylestad: 
+## 6.1) Utilize a condição 4.33 e verifique matematicamente se o circuito atende essa condição.
 
-\beta R_E \geq 10R_2
-
----
-
-## 6.1)
-
-Verifique matematicamente se o circuito atende essa condição.
-
----
-
-## 6.2)
-
-Explique:
+## 6.2) Explique:
 O ponto Q deste circuito tende a ser:
 
 * estável?
 * ou muito dependente de β?
 
----
-
 # ETAPA 7 — Simulação no Tinkercad
 
 Monte o circuito no Tinkercad.
 
----
-
-## 7.1)
-
-Meça:
+## 7.1) Meça:
 
 * VB
 * VE
 * VC
 * VCE
 
----
-
-## 7.2)
-
-Compare:
+## 7.2) Compare:
 
 * valores teóricos;
 * valores simulados.
 
----
-
-## 7.3)
-
-Calcule o erro percentual entre:
+## 7.3) Calcule o erro percentual entre:
 
 * teoria;
 * simulação.
-
----
 
 # ETAPA 8 — Inserção do sinal AC
 
@@ -471,145 +350,62 @@ Configure:
 * 1 kHz;
 * 100 mVpp.
 
----
-
-## 8.1)
-
-Observe:
+## 8.1) Observe usando o osciloscópio
 
 * entrada;
 * saída.
 
----
-
-## 8.2)
-
-O sinal de saída está:
+## 8.2) O sinal de saída está:
 
 * invertido?
 * não invertido?
 
----
+## 8.3) O sinal de saída possui maior amplitude?
 
-## 8.3)
-
-O sinal de saída possui maior amplitude?
-
----
-
-## 8.4)
-
-Explique:
+## 8.4) Explique:
 Por que o capacitor de entrada impede que a fonte AC altere a polarização DC do transistor?
-
----
 
 # ETAPA 9 — Alterando o ponto Q
 
-Altere:
+## 9.1) Altere R2 de 3,9 kΩ para 22 kΩ.
 
-* R2 de 3,9 kΩ para 22 kΩ.
-
----
-
-## 9.1)
-
-Recalcule:
+## 9.2) Recalcule:
 
 * VB
 * VE
 * IC
 * VCE
 
----
+## 9.3) O ponto Q mudou? Como?
 
-## 9.2)
+## 9.3) A forma de onda piorou? Explique
 
-O ponto Q mudou?
+# ETAPA 10 — Investigação da saturação [PRO LAR, FAZER EM CASA]
 
-Como?
+Agora altere: RC para 1 kΩ.
 
----
+## 10.1) Calcule ICsat utilizando 4.38
 
-## 9.3)
-
-A forma de onda piorou?
-
-Explique.
-
----
-
-# ETAPA 10 — Investigação da saturação
-
-Agora altere:
-
-* RC para 1 kΩ.
-
----
-
-## 10.1)
-
-Calcule:
-
-* ICsat
-
-Utilize: 
-
-I_{Csat} = \frac{V_{CC}}{R_C + R_E}
-
----
-
-## 10.2)
-
-O transistor ficou mais próximo:
+## 10.2) O transistor ficou mais próximo:
 
 * da saturação?
 * ou da região ativa?
 
----
-
-## 10.3)
-
-Observe o sinal no osciloscópio.
-Existe clipping?
-
----
+## 10.3) Observe o sinal no osciloscópio. Existe clipping?
 
 # Conclusão da atividade
 
-Responda:
+## 1) Qual é a principal função da polarização em um amplificador BJT?
 
-## 1)
+## 2) O que acontece quando o ponto Q é mal ajustado?
 
-Qual é a principal função da polarização em um amplificador BJT?
+## 3) Por que o resistor de emissor melhora a estabilidade do circuito?
 
----
+## 4) Por que a polarização por divisor de tensão é mais estável que a polarização fixa?
 
-## 2)
-
-O que acontece quando o ponto Q é mal ajustado?
-
----
-
-## 3)
-
-Por que o resistor de emissor melhora a estabilidade do circuito?
-
----
-
-## 4)
-
-Por que a polarização por divisor de tensão é mais estável que a polarização fixa?
-
----
-
-## 5)
-
-Qual foi a principal relação observada entre:
+## 5) Qual foi a principal relação observada entre:
 
 * cálculos teóricos;
 * simulação;
 * comportamento do sinal AC?
-
-O Boylestad enfatiza isso muito bem. 
 
