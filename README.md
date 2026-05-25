@@ -26,7 +26,7 @@
 * Vamos nos preparar para identificar saturação, corte e região ativa;
 
 
-# 1. Ponto de Partida
+# 1. Ponto de Partida - Os Autoestudos
 
 ### Por que alguns amplificadores distorcem mesmo sem aumentar muito o volume?
 
@@ -49,13 +49,40 @@ Pontos-chave que explicam isso:
 * um transistor funcionando como chave --> pode haver resistências e resistores mal dimencionados conectados aos transistores alterando o ponto Q;
 * um transistor funcionando linearmente --> é o nosso alvo
 
-> “O transistor está apenas ligando e desligando ou existe uma região intermediária?”
+
+## O transistor está apenas ligando e desligando ou existe uma região intermediária?
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 * corte;
 * saturação;
 * região ativa --> onde mora o ponto Q
 
-# 2. Conexão com o Projeto Real
+## Como o circuito decide em qual ponto o transistor vai "descansar" antes do áudio chegar?
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 * transistor central;
 * divisor de tensão;
@@ -63,15 +90,25 @@ Pontos-chave que explicam isso:
 * resistor de coletor;
 * capacitores.
 
-**Como o circuito decide em qual ponto o transistor vai ‘descansar’ antes do áudio chegar?**
 
-## ponto Q
+## Então, qual é a definição do ponto Q?
 
-# 3. Construção Conceitual (40 min)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# 2. Construção Conceitual
 
 ## Parte 1 — O transistor como amplificador
-
-Explique:
 
 Se o transistor estiver:
 
@@ -79,32 +116,23 @@ Se o transistor estiver:
 * em saturação → áudio “amassa”
 * no meio → amplifica linearmente
 
-Mostre a ideia:
+Portanto, podemos concluir que:
 
 * áudio é uma pequena variação AC;
 * polarização cria o “offset DC”.
 
-Analogia:
+Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele subir e descer igualmente rápido.
 
-> O ponto Q é como posicionar o elevador no meio do prédio para ele subir e descer igualmente rápido.
-
----
 
 ## Parte 2 — Polarização fixa vs divisor de tensão
-
-Mostre rapidamente:
 
 * polarização fixa;
 * sensibilidade ao β;
 * temperatura.
+* COLOCAR FIGURA NO QUADRO
 
-Então entre no Boylestad:
+#### Conclusão: o divisor de tensão nasce para tornar o ponto Q menos dependente do β.
 
-> “O divisor de tensão nasce para tornar o ponto Q menos dependente do β.”
-
-
-
----
 
 ## Parte 3 — Método aproximado
 
@@ -120,13 +148,10 @@ Explique:
 
 Isso é MUITO importante para o projeto real.
 
----
 
-# 4. Parte Matemática Aplicada ao Amplificador (35 min)
+# 4. Parte Matemática Aplicada ao Amplificador
 
-Agora use o circuito do projeto.
-
-Monte uma tabela:
+Tabela resumida:
 
 | Grandeza | Significado físico            |
 | -------- | ----------------------------- |
@@ -136,7 +161,6 @@ Monte uma tabela:
 | IC       | corrente de repouso           |
 | Ponto Q  | condição sem áudio            |
 
----
 
 ## Equações principais
 
@@ -144,65 +168,34 @@ Monte uma tabela:
 
 V_B = \frac{R_2V_{CC}}{R_1+R_2}
 
----
-
 ### Tensão do emissor
 
 V_E = V_B - V_{BE}
-
----
 
 ### Corrente de emissor
 
 genui{"math_block_widget_always_prefetch_v2":{"content":"I_E = \frac{V_E}{R_E}"}}
 
----
-
 ### Tensão coletor-emissor
 
 V_{CE} = V_{CC} - I_C(R_C + R_E)
 
----
+# 6. Fechamento Conceitual
 
-
-# 6. Fechamento Conceitual (20 min)
-
-Monte uma síntese visual:
 
 | Situação          | Consequência no áudio |
 | ----------------- | --------------------- |
 | ponto Q central   | áudio limpo           |
 | corte             | meia onda perdida     |
 | saturação         | topo achatado         |
-| β varia           | circuito instável     |
+| β varia           | circuito instável, não confiável     |
 | divisor de tensão | estabilidade          |
-
-
-## 3. β não é confiável
 
 
 # Roteiro Prático — Polarização de Transistor BJT em Emissor Comum
 
-## Título da atividade
+## Lista de materiais
 
-**Análise e cálculo da polarização de um transistor BJT em emissor comum**
-
----
-
-# Objetivos
-
-* Compreender o funcionamento da polarização por divisor de tensão em transistores BJT;
-* Calcular as tensões e correntes do circuito utilizando os métodos aproximado e exato;
-* Identificar o ponto Q do transistor;
-* Relacionar os cálculos teóricos com o comportamento do circuito;
-* Interpretar o papel de cada componente no circuito amplificador;
-* Observar o efeito da estabilidade da polarização frente à variação de β. 
-
----
-
-# Lista de materiais
-
-* Computador com acesso ao Tinkercad;
 * Calculadora;
 * Folha para cálculos;
 * Simulador Tinkercad;
@@ -221,9 +214,7 @@ Monte uma síntese visual:
 * Gerador de sinais senoidais;
 * Osciloscópio virtual.
 
----
-
-# Circuito da atividade
+## Circuito da atividade
 
 Monte o circuito abaixo no Tinkercad:
 
@@ -244,8 +235,6 @@ Valores:
 * R2 = 3,9 kΩ
 * RC = 10 kΩ
 * RE = 1,5 kΩ
-
----
 
 # ETAPA 1 — Observação inicial do circuito
 
