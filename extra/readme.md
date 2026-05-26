@@ -1,14 +1,14 @@
 # Como interpretar o gráfico do transistor?
 
-* O gráfico mostra o comportamento elétrico do transistor BJT em diferentes condições de polarização. Ele relaciona a tensão coletor-emissor (VCE) no eixo horizontal com a corrente de coletor (IC) no eixo vertical.
+* O gráfico mostra o comportamento elétrico do transistor BJT em diferentes condições de polarização. Ele relaciona a tensão coletor-emissor VCE no eixo horizontal com a corrente de coletor IC no eixo vertical.
 
-* Cada curva azul representa um valor diferente de corrente de base (IB).
-  Quanto maior o (IB), maior tende a ser o (IC).
+* Cada curva azul representa um valor diferente de corrente de base IB.
+  Quanto maior o IB, maior tende a ser o IC.
 
 * A leitura do gráfico sempre segue esta lógica:
-  1. Escolha uma curva de (IB);
-  2. Escolha um valor de (VCE);
-  3. Observe qual corrente (IC) o transistor fornece.
+  1. Escolha uma curva de IB;
+  2. Escolha um valor de VCE;
+  3. Observe qual corrente IC o transistor fornece.
 
 * O transistor possui três regiões principais de operação:
   * Corte;
@@ -33,19 +33,19 @@
 ## 🟢 Região Ativa
 
 * Região usada para amplificação analógica.
-* Pequenas variações em (IB) provocam grandes variações em (IC).
+* Pequenas variações em IB provocam grandes variações em IC.
 * Aqui vale aproximadamente:
 
   ```IC = Beta * IB```
 
 * Nesta região:
   * O transistor funciona como amplificador;
-  * (IC) depende principalmente de (IB);
-  * (VCE) permanece relativamente estável.
+  * IC depende principalmente de IB;
+  * VCE permanece relativamente estável.
 
 * Observe no gráfico:
   * As curvas ficam quase horizontais;
-  * Isso indica que aumentar (VCE) pouco altera (IC).
+  * Isso indica que aumentar VCE pouco altera IC.
 
 * Pontos como B e D representam possíveis pontos de operação (Q-point).
 
@@ -57,11 +57,11 @@
 ## 🔵 Região de Saturação
 
 * O transistor está totalmente ligado.
-* Mesmo aumentando (IB), o (IC) praticamente não cresce mais.
+* Mesmo aumentando IB, o IC praticamente não cresce mais.
 * O transistor se comporta como uma chave fechada.
 * Características:
 
-  * (VCE) fica muito pequeno;
+  * VCE fica muito pequeno;
   * Surge a tensão de saturação:
 
   VCE aprox. 0,2V
