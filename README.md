@@ -179,6 +179,8 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 * temperatura.
 * COLOCAR FIGURA NO QUADRO
 
+<img src="https://github.com/agodoi/m05-semana06/blob/main/imgs/transistor.jpeg" width="600">
+
 #### Conclusão: o divisor de tensão nasce para tornar o ponto Q menos dependente do β.
 
 
