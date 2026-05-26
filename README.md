@@ -182,8 +182,10 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 
 <br>
 <br>
+<br>
+<br>
 
-<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa_formulas.png" width="400">
+<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa_formulas.png" width="500">
 
 
 
