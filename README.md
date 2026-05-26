@@ -191,10 +191,10 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 
 
 
-#### Conclusão: o divisor de tensão nasce para tornar o ponto Q menos dependente do β.
+#### Conclusão: a polarização fixa resolve, mas é perigosa. O divisor de tensão nasce para tornar o ponto Q menos dependente do β.
 
 
-## Parte 3 — Polarização por Divisor de Corrente - Método Aproximado e Prático
+## Parte 3 — Polarização por Divisor de Tensão - Método Aproximado e Prático
 
 Ver a equação 4.33 do PDF [AQUI](https://drive.google.com/file/d/1_7p3mcqvUH_jVqHbjrk3s6PnXa21Ybk-/view?usp=sharing)
 
