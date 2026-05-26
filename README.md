@@ -172,19 +172,27 @@ Portanto, podemos concluir que:
 Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele subir e descer igualmente rápido.
 
 
-## Parte 2 — Polarização fixa vs divisor de tensão
+## Parte 2 — Polarização fixa (não confiável)
 
 * polarização fixa;
 * sensibilidade ao β;
 * temperatura.
-* COLOCAR FIGURA NO QUADRO
 
-<img src="https://github.com/agodoi/m05-semana06/blob/main/imgs/transistor.jpeg" width="600">
+<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa.png" width="600">
+
+<br>
+<br>
+
+<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa_formulas.png" width="600">
+
+
+
+
 
 #### Conclusão: o divisor de tensão nasce para tornar o ponto Q menos dependente do β.
 
 
-## Parte 3 — Método aproximado
+## Parte 3 — Polarização por Divisor de Corrente - Método Aproximado e Prático
 
 Ver a equação 4.33 do PDF [AQUI](https://drive.google.com/file/d/1_7p3mcqvUH_jVqHbjrk3s6PnXa21Ybk-/view?usp=sharing)
 
