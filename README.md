@@ -9,8 +9,8 @@
 ## Impactos no Projeto do Amplificador de Áudio
 
 * Vamos além da visão **transistor como chave**
-* entrar em **transistor como amplificador linear**
-* mostrar que a polarização define:
+* Entrar em **transistor como amplificador linear**
+* Mostrar que a polarização define:
   * distorção,
   * clipping,
   * estabilidade térmica,
@@ -21,10 +21,21 @@
   * RE;
   * divisor R1/R2;
   * capacitores de acoplamento;
-* Vamos nos preparar para medir tensões reais do circuito;
-* Vamos na próxima aula poder comparar teoria × prática;
+* Vamos nos preparar para medir tensões reais do circuito → necessário para o relatório final;
 * Vamos nos preparar para identificar saturação, corte e região ativa;
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # 1. Ponto de Partida - Os Autoestudos
 
@@ -49,6 +60,18 @@ Pontos-chave que explicam isso:
 * um transistor funcionando como chave → pode haver resistências e resistores mal dimencionados conectados aos transistores alterando o ponto Q;
 * um transistor funcionando linearmente → é o nosso alvo
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## O transistor está apenas ligando e desligando ou existe uma região intermediária?
 
@@ -68,6 +91,19 @@ Pontos-chave que explicam isso:
 * corte;
 * saturação;
 * região ativa → onde mora o ponto Q
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Como o circuito decide em qual ponto o transistor vai "descansar" antes do áudio chegar?
 
@@ -90,6 +126,18 @@ Pontos-chave que explicam isso:
 * resistor de coletor;
 * capacitores.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Então, qual é a definição do ponto Q?
 
