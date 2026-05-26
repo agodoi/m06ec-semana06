@@ -263,6 +263,7 @@ Tabela resumida:
 
   * C1 = 10 µF
   * C2 = 10 µF
+  * C3 = 50 µF
 * Fonte DC de 22 V;
 * Gerador de sinais senoidais;
 * Osciloscópio virtual.
