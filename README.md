@@ -1,5 +1,7 @@
 # Semana 06 - Polarização de Transistor
 
+* O contéudo da prova vem até essa aula.
+
 ## Objetivos da Aula
 
 * Compreender o funcionamento da polarização do transistor BJT em configuração emissor comum;
@@ -187,7 +189,12 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 
 <img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa_formulas.png" width="500">
 
+<br>
+<br>
+<br>
+<br>
 
+<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/grafico_transistor.png" width="400">
 
 
 
