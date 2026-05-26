@@ -178,12 +178,12 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 * sensibilidade ao β;
 * temperatura.
 
-<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa.png" width="600">
+<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa.png" width="400">
 
 <br>
 <br>
 
-<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa_formulas.png" width="600">
+<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/polarizacao_fixa_formulas.png" width="400">
 
 
 
