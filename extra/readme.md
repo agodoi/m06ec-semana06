@@ -1,3 +1,5 @@
+# Como interpretar o gráfico do transistor?
+
 * O gráfico mostra o comportamento elétrico do transistor BJT em diferentes condições de polarização. Ele relaciona a tensão coletor-emissor (VCE) no eixo horizontal com a corrente de coletor (IC) no eixo vertical.
 
 * Cada curva azul representa um valor diferente de corrente de base (IB).
