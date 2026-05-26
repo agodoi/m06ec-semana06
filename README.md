@@ -194,7 +194,7 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 <br>
 <br>
 
-<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/grafico_transistor.png" width="400">
+<img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/grafico_transistor.png" width="600">
 
 
 
