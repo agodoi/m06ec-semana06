@@ -195,7 +195,8 @@ Analogia: o ponto Q é como posicionar o elevador no meio do prédio para ele su
 <br>
 
 <img src="https://github.com/agodoi/m06ec-semana06/blob/main/assets/grafico_transistor.png" width="550">
-(clique aqui)[https://github.com/agodoi/m06ec-semana06/blob/main/extra/readme.md] para entender a interpretação do gráfico
+
+[Clique aqui](https://github.com/agodoi/m06ec-semana06/blob/main/extra) para entender a interpretação do gráfico
 
 
 #### Conclusão: a polarização fixa resolve, mas é perigosa. O divisor de tensão nasce para tornar o ponto Q menos dependente do β.
